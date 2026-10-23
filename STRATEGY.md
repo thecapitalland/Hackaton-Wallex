@@ -182,3 +182,24 @@ LIVE=1 .venv/bin/python main.py live-xaut --execute --liquidate-now   # final: a
   - multiple reference venues (PAXG, OKX) for a robust global price;
   - a larger multi-day replay set to re-tune TH;
   - promoting ETH to live once the shadow shows enough positive trips.
+
+## Margin (تعهدی) gap arbitrage — SHADOW ONLY
+Code: `bot/multi/margin.py` (client: GET markets/positions + public dry-run/loan; open/close raise unless `MARGIN_LIVE=1` and `--execute`),
+`bot/multi/live_margin.py` (`python main.py margin-gap`, watchdog `run_margin_shadow.sh`), log `logs/margin_shadow.jsonl`, replay `research/replay_margin.py` -> `data/replay_margin.csv`.
+Rule (15s, XAUTUSDT/BTCUSDT/ETHUSDT): Wallex bid premium vs Binance mid > TH (default 0.6%) and net of fees > 0 -> virtual SHORT; ask discount < -TH -> LONG.
+Exit: exit-side premium crosses 0 / |prem|<0.05%, 8h max hold, 1.5% stop, or liquidation price (from dry-run). Collateral 10 USDT, risk_coef 10 -> 100 USDT loan (minimum).
+XAUT entries paused when gold is closed / Binance ref stale.
+
+Fees (verified by `public/dry-run`, XAUT short 10 USDT x10): trade_fee 0.25 USDT (=0.25% of loan per side), open_fee 0.015%, extend 0.015%/4h, liquidation 4429.65 vs 4100 (+8%).
+Round trip = 0.25%x2 + 0.015% = **0.515%** of loan (+0.015% per 4h) vs 0.26% for spot taker round trip.
+
+**Why leverage doesn't beat fees:** fees are charged on the loan notional, so both edge and cost scale with risk_coef; leverage
+only multiplies the per-trip sign. The gap must exceed ~0.52% just to break even, i.e. 2x the spot hurdle. In 21h of recorded books the max
+executable premium was XAUT 0.34%, BTC 0.19%, ETH 0.46% -> zero eligible trips at any TH 0.4–0.8%. Leverage also adds liquidation
+risk (coef10: ~8% adverse move) and the trade is unhedged (no Binance leg), so it is directional until the gap closes.
+| symbol | hours | max |prem| | trips @0.4/0.5/0.6/0.8% | net |
+|---|---|---|---|---|
+| XAUTUSDT | 21.2 | 0.339% | 0/0/0/0 | 0 |
+| BTCUSDT | 21.3 | 0.185% | 0/0/0/0 | 0 |
+| ETHUSDT | 21.3 | 0.461% | 0/0/0/0 | 0 |
+Verdict: keep as shadow monitor only; spot inventory gap (0.26% hurdle, no loan) remains the live strategy.

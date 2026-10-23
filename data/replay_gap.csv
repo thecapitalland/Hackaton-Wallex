@@ -1,0 +1,19 @@
+symbol,premium,th_%,lat_s,round_trips,net/trip_%,win_%,portfolio_excess_%,open_at_end
+XAUTUSDT,raw (vs 0),0.2,0,4,0.092,50.0,0.183,False
+XAUTUSDT,raw (vs 0),0.2,5,4,0.081,50.0,0.163,False
+XAUTUSDT,raw (vs 0),0.2,10,4,0.084,50.0,0.168,False
+XAUTUSDT,raw (vs 0),0.3,0,1,0.105,100.0,0.052,False
+XAUTUSDT,raw (vs 0),0.3,5,1,-0.0,0.0,-0.0,False
+XAUTUSDT,raw (vs 0),0.3,10,1,-0.0,0.0,-0.0,False
+XAUTUSDT,raw (vs 0),0.4,0,0,,,0.0,False
+XAUTUSDT,raw (vs 0),0.4,5,0,,,0.0,False
+XAUTUSDT,raw (vs 0),0.4,10,0,,,0.0,False
+XAUTUSDT,bias-adj (vs 2h median),0.2,0,3,-0.101,0.0,-0.152,False
+XAUTUSDT,bias-adj (vs 2h median),0.2,5,3,-0.101,0.0,-0.152,False
+XAUTUSDT,bias-adj (vs 2h median),0.2,10,3,-0.101,0.0,-0.152,False
+XAUTUSDT,bias-adj (vs 2h median),0.3,0,1,-0.0,0.0,-0.0,False
+XAUTUSDT,bias-adj (vs 2h median),0.3,5,1,-0.0,0.0,-0.0,False
+XAUTUSDT,bias-adj (vs 2h median),0.3,10,1,-0.0,0.0,-0.0,False
+XAUTUSDT,bias-adj (vs 2h median),0.4,0,1,-0.0,0.0,-0.0,False
+XAUTUSDT,bias-adj (vs 2h median),0.4,5,1,-0.041,0.0,-0.02,False
+XAUTUSDT,bias-adj (vs 2h median),0.4,10,1,-0.031,0.0,-0.015,False

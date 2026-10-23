@@ -88,7 +88,7 @@ def cmd_multi_backtest(cfg, args):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", nargs="?", choices=["backtest", "paper", "live", "shadow", "shadow-usdt", "liquidate", "multi-backtest", "live-xaut"])
+    ap.add_argument("mode", nargs="?", choices=["backtest", "paper", "live", "shadow", "shadow-usdt", "liquidate", "multi-backtest", "live-xaut", "margin-gap", "setup-trade"])
     ap.add_argument("--bars", type=int, default=1500)
     ap.add_argument("--iterations", type=int, default=0, help="0 = forever")
     ap.add_argument("--sleep", type=int, default=None)
@@ -104,6 +104,12 @@ if __name__ == "__main__":
     if a.mode == "live-xaut":
         from bot.multi.live_xaut import run as _lx
         sys.exit(_lx(execute=a.execute, iterations=a.iterations, sleep=a.sleep or 15, liq_now=a.liquidate_now))
+    if a.mode == "setup-trade":
+        from bot.multi.setup_trade import main as _st
+        sys.exit(_st())
+    if a.mode == "margin-gap":
+        from bot.multi.live_margin import run as _lm
+        sys.exit(_lm(iterations=a.iterations, sleep=a.sleep or 15))
     if a.mode == "multi-backtest": sys.exit(cmd_multi_backtest(cfg, a))
     if a.mode: cfg.mode = a.mode
     if cfg.mode == "live": cfg.state_path = cfg.state_path.replace(".json", "_live.json")

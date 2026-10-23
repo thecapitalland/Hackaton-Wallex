@@ -1,0 +1,13 @@
+symbol,hours,max|prem|_%,th_%,trips,net/trip_usdt(100 loan),net/trip_%loan,total_usdt,open_at_end
+XAUTUSDT,21.2,0.339,0.4,0,,,0.0,False
+XAUTUSDT,21.2,0.339,0.5,0,,,0.0,False
+XAUTUSDT,21.2,0.339,0.6,0,,,0.0,False
+XAUTUSDT,21.2,0.339,0.8,0,,,0.0,False
+BTCUSDT,21.3,0.185,0.4,0,,,0.0,False
+BTCUSDT,21.3,0.185,0.5,0,,,0.0,False
+BTCUSDT,21.3,0.185,0.6,0,,,0.0,False
+BTCUSDT,21.3,0.185,0.8,0,,,0.0,False
+ETHUSDT,21.3,0.461,0.4,0,,,0.0,False
+ETHUSDT,21.3,0.461,0.5,0,,,0.0,False
+ETHUSDT,21.3,0.461,0.6,0,,,0.0,False
+ETHUSDT,21.3,0.461,0.8,0,,,0.0,False

@@ -1,0 +1,19 @@
+symbol,premium,th_%,lat_s,round_trips,net/trip_%,win_%,portfolio_excess_%,open_at_end
+ETHUSDT,raw (vs 0),0.2,0,4,-0.046,25,-0.093,True
+ETHUSDT,raw (vs 0),0.2,5,4,-0.054,25,-0.109,True
+ETHUSDT,raw (vs 0),0.2,10,4,-0.055,25,-0.11,True
+ETHUSDT,raw (vs 0),0.3,0,1,0.408,100,0.204,False
+ETHUSDT,raw (vs 0),0.3,5,1,0.408,100,0.204,False
+ETHUSDT,raw (vs 0),0.3,10,1,0.408,100,0.204,False
+ETHUSDT,raw (vs 0),0.4,0,1,0.408,100,0.204,False
+ETHUSDT,raw (vs 0),0.4,5,1,0.408,100,0.204,False
+ETHUSDT,raw (vs 0),0.4,10,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.2,0,3,-0.002,33,-0.003,False
+ETHUSDT,bias-adj (vs 2h median),0.2,5,3,-0.076,33,-0.114,False
+ETHUSDT,bias-adj (vs 2h median),0.2,10,3,-0.076,33,-0.115,False
+ETHUSDT,bias-adj (vs 2h median),0.3,0,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.3,5,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.3,10,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.4,0,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.4,5,1,0.408,100,0.204,False
+ETHUSDT,bias-adj (vs 2h median),0.4,10,1,0.408,100,0.204,False

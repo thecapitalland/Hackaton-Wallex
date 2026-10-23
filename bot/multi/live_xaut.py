@@ -30,6 +30,11 @@ def gold_closed(t=None):
     t = t or dt.datetime.now(dt.timezone.utc); wd, h = t.weekday(), t.hour
     return (wd == 4 and h >= 21) or wd == 5 or (wd == 6 and h < 22) or h == 21
 
+SETUP_LOCK = "logs/setup_lock.json"
+def setup_lock():
+    try: return json.load(open(SETUP_LOCK)) if os.path.exists(SETUP_LOCK) and SYM == "XAUTUSDT" else None
+    except Exception: return None
+
 def now_teh(): return dt.datetime.now(TZ)
 def log(rec):
     os.makedirs("logs", exist_ok=True)
@@ -60,7 +65,11 @@ class Runner:
     def _sync(self):
         if not self.live: return
         b = self.c.balances(); g = lambda a: float(b.get(a, {}).get("value") or 0) - float(b.get(a, {}).get("locked") or 0)
-        self.st.update(usdt=g("USDT"), xaut=g(ASSET), tmn=g("TMN"))
+        lk = setup_lock(); self.st["setup_lock"] = lk
+        v = lambda a: float(b.get(a, {}).get("value") or 0); lo = lambda a: float(b.get(a, {}).get("locked") or 0)
+        # setup lot is excluded: own = total - max(locked, reserved)
+        self.st.update(usdt=max(0.0, v("USDT") - max(lo("USDT"), lk.get("usdt", 0))) if lk else g("USDT"),
+                       xaut=max(0.0, v(ASSET) - max(lo(ASSET), lk.get("xaut", 0))) if lk else g(ASSET), tmn=g("TMN"))
 
     # ---------- nodes
     def n_data(self, s):
@@ -111,7 +120,10 @@ class Runner:
     def n_risk(self, s):
         m, p, st = s["mkt"], s["prop"], self.st
         if not m.get("ok") or p is None: log({"event": "veto", "why": "no market data", "err": m.get("err")}); return {"appr": None}
-        eq = st["usdt"] + st["xaut"] * m["bid"]; day = now_teh().strftime("%Y-%m-%d")
+        lk = setup_lock() if self.live else None
+        if lk or st.get("setup_lock"): self._sync()   # real balances every cycle while a setup lot is reserved
+        if not lk: st.pop("setup_lock", None)
+        eq = st["usdt"] + st["xaut"] * m["bid"] + ((lk.get("usdt", 0) + lk.get("xaut", 0) * m["bid"]) if lk else 0); day = now_teh().strftime("%Y-%m-%d")
         if st["start_eq"] is None: st["start_eq"] = st["peak"] = eq
         if st["day"] != day: st["day"], st["day_start"] = day, eq
         st["peak"] = max(st["peak"], eq); st["equity"] = round(eq, 6); st["xaut_frac"] = round(st["xaut"] * m["bid"] / eq, 4) if eq else 0
@@ -120,6 +132,7 @@ class Runner:
         tgt = min(max(p["target_frac"], 0), P["max_frac"]); delta = tgt * eq - st["xaut"] * m["bid"]; side = "BUY" if delta > 0 else "SELL"
         why = None
         if st["halted"]: why = f"halted:{st['halted']}"
+        elif self.live and setup_lock(): why = "setup trade active (logs/setup_lock.json): gap bot paused, setup lot excluded"
         elif m["age_s"] > P["stale_s"]: why = "stale data"
         elif p["mode"] != "base" and st["mode"] == "base" and (m.get("ref_age_s", 0) > P["ref_stale_s"] or (ASSET == "XAUT" and gold_closed())):
             why = "global reference stale / gold market closed: gap entries paused"

@@ -1,0 +1,19 @@
+symbol,premium,th_%,lat_s,round_trips,net/trip_%,win_%,portfolio_excess_%,open_at_end
+BTCUSDT,raw (vs 0),0.2,0,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.2,5,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.2,10,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.3,0,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.3,5,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.3,10,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.4,0,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.4,5,0,,,0.0,False
+BTCUSDT,raw (vs 0),0.4,10,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.2,0,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.2,5,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.2,10,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.3,0,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.3,5,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.3,10,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.4,0,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.4,5,0,,,0.0,False
+BTCUSDT,bias-adj (vs 2h median),0.4,10,0,,,0.0,False
