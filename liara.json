@@ -1,0 +1,6 @@
+{
+  "platform": "docker",
+  "app": "wallex-agent-bot",
+  "port": 8000,
+  "disks": [{ "name": "data", "mountTo": "/app/data" }]
+}

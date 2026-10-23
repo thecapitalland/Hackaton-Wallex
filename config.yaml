@@ -1,0 +1,17 @@
+symbols: [BTCUSDT, ETHUSDT]
+timeframe: "240"
+lookback_bars: 300
+mode: paper
+loop_seconds: 600
+start_equity_usdt: 1000
+risk_per_trade: 0.025
+max_position_frac: 0.6
+max_open_positions: 2
+max_daily_drawdown: 0.15
+stop_atr: 3.0
+tp_atr: 4.5
+trail_atr: 3.0
+trail_activate_atr: 2.0
+fee_rate: 0.002
+limit_offset_bps: 5
+use_llm: true
