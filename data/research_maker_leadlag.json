@@ -1,0 +1,314 @@
+{
+ "ETHUSDT": {
+  "params": {
+   "L": 3,
+   "thr": 0.001,
+   "gap": 0.005,
+   "off": 0.0,
+   "tgt": 0.005,
+   "hold": 15,
+   "wait": 3,
+   "stop": 0.01,
+   "rev": 0.002
+  },
+  "tt0.0": {
+   "train": {
+    "trades": 23,
+    "trades_day": 0.6,
+    "mean_trade_%": 0.027,
+    "win_%": 65.2,
+    "avg_abs_move_%": 0.375,
+    "rt_cost_%": 0.244,
+    "total_%": 0.61,
+    "24h_win_windows_%": 18.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": 0.02,
+    "24h_worst_%": -1.16,
+    "48h_win_windows_%": 32.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": 0.03,
+    "48h_worst_%": -1.16
+   },
+   "test": {
+    "trades": 4,
+    "trades_day": 0.2,
+    "mean_trade_%": -0.078,
+    "win_%": 50.0,
+    "avg_abs_move_%": 0.279,
+    "rt_cost_%": 0.264,
+    "total_%": -0.31,
+    "24h_win_windows_%": 8.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.02,
+    "24h_worst_%": -0.5,
+    "48h_win_windows_%": 11.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.04,
+    "48h_worst_%": -0.5
+   },
+   "exits": {
+    "target": 1,
+    "stop": 0,
+    "time": 2,
+    "reverse_gap": 1
+   }
+  },
+  "tt0.0002": {
+   "train": {
+    "trades": 13,
+    "trades_day": 0.3,
+    "mean_trade_%": 0.055,
+    "win_%": 76.9,
+    "avg_abs_move_%": 0.481,
+    "rt_cost_%": 0.226,
+    "total_%": 0.7,
+    "24h_win_windows_%": 12.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": 0.02,
+    "24h_worst_%": -1.16,
+    "48h_win_windows_%": 20.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": 0.04,
+    "48h_worst_%": -1.16
+   },
+   "test": {
+    "trades": 4,
+    "trades_day": 0.2,
+    "mean_trade_%": -0.071,
+    "win_%": 50.0,
+    "avg_abs_move_%": 0.286,
+    "rt_cost_%": 0.264,
+    "total_%": -0.29,
+    "24h_win_windows_%": 8.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.02,
+    "24h_worst_%": -0.5,
+    "48h_win_windows_%": 11.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.04,
+    "48h_worst_%": -0.5
+   },
+   "exits": {
+    "target": 1,
+    "stop": 0,
+    "time": 2,
+    "reverse_gap": 1
+   }
+  },
+  "tt0.0005": {
+   "train": {
+    "trades": 12,
+    "trades_day": 0.3,
+    "mean_trade_%": 0.034,
+    "win_%": 75.0,
+    "avg_abs_move_%": 0.475,
+    "rt_cost_%": 0.235,
+    "total_%": 0.4,
+    "24h_win_windows_%": 10.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": 0.01,
+    "24h_worst_%": -1.16,
+    "48h_win_windows_%": 19.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": 0.02,
+    "48h_worst_%": -1.16
+   },
+   "test": {
+    "trades": 2,
+    "trades_day": 0.1,
+    "mean_trade_%": -0.242,
+    "win_%": 50.0,
+    "avg_abs_move_%": 0.256,
+    "rt_cost_%": 0.285,
+    "total_%": -0.48,
+    "24h_win_windows_%": 5.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.03,
+    "24h_worst_%": -0.5,
+    "48h_win_windows_%": 11.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.05,
+    "48h_worst_%": -0.5
+   },
+   "exits": {
+    "target": 0,
+    "stop": 0,
+    "time": 1,
+    "reverse_gap": 1
+   }
+  },
+  "no_rev_test": {
+   "trades": 4,
+   "trades_day": 0.2,
+   "mean_trade_%": -0.029,
+   "win_%": 50.0,
+   "avg_abs_move_%": 0.23,
+   "rt_cost_%": 0.264,
+   "total_%": -0.12,
+   "24h_win_windows_%": 8.0,
+   "24h_median_%": 0.0,
+   "24h_mean_%": -0.01,
+   "24h_worst_%": -0.3,
+   "48h_win_windows_%": 11.0,
+   "48h_median_%": 0.0,
+   "48h_mean_%": -0.02,
+   "48h_worst_%": -0.3
+  }
+ },
+ "XAUTTMN": {
+  "params": {
+   "L": 3,
+   "thr": 0.001,
+   "gap": 0.003,
+   "off": 0.0005,
+   "tgt": 0.003,
+   "hold": 60,
+   "wait": 3,
+   "stop": 0.01,
+   "rev": 0.002
+  },
+  "tt0.0": {
+   "train": {
+    "trades": 15,
+    "trades_day": 0.4,
+    "mean_trade_%": -0.531,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.347,
+    "rt_cost_%": 0.603,
+    "total_%": -7.69,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.2,
+    "24h_worst_%": -2.1,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": -0.2,
+    "48h_mean_%": -0.4,
+    "48h_worst_%": -2.81
+   },
+   "test": {
+    "trades": 1,
+    "trades_day": 0.1,
+    "mean_trade_%": -1.038,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.492,
+    "rt_cost_%": 0.72,
+    "total_%": -1.04,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.05,
+    "24h_worst_%": -1.04,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.12,
+    "48h_worst_%": -1.04
+   },
+   "exits": {
+    "target": 0,
+    "stop": 0,
+    "time": 1,
+    "reverse_gap": 0
+   }
+  },
+  "tt0.0002": {
+   "train": {
+    "trades": 13,
+    "trades_day": 0.3,
+    "mean_trade_%": -0.582,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.354,
+    "rt_cost_%": 0.618,
+    "total_%": -7.32,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.19,
+    "24h_worst_%": -2.1,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.37,
+    "48h_worst_%": -2.81
+   },
+   "test": {
+    "trades": 1,
+    "trades_day": 0.1,
+    "mean_trade_%": -1.038,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.492,
+    "rt_cost_%": 0.72,
+    "total_%": -1.04,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.05,
+    "24h_worst_%": -1.04,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.12,
+    "48h_worst_%": -1.04
+   },
+   "exits": {
+    "target": 0,
+    "stop": 0,
+    "time": 1,
+    "reverse_gap": 0
+   }
+  },
+  "tt0.0005": {
+   "train": {
+    "trades": 11,
+    "trades_day": 0.3,
+    "mean_trade_%": -0.622,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.365,
+    "rt_cost_%": 0.64,
+    "total_%": -6.65,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.17,
+    "24h_worst_%": -2.28,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.34,
+    "48h_worst_%": -2.99
+   },
+   "test": {
+    "trades": 1,
+    "trades_day": 0.1,
+    "mean_trade_%": -1.038,
+    "win_%": 0.0,
+    "avg_abs_move_%": 0.492,
+    "rt_cost_%": 0.72,
+    "total_%": -1.04,
+    "24h_win_windows_%": 0.0,
+    "24h_median_%": 0.0,
+    "24h_mean_%": -0.05,
+    "24h_worst_%": -1.04,
+    "48h_win_windows_%": 0.0,
+    "48h_median_%": 0.0,
+    "48h_mean_%": -0.12,
+    "48h_worst_%": -1.04
+   },
+   "exits": {
+    "target": 0,
+    "stop": 0,
+    "time": 1,
+    "reverse_gap": 0
+   }
+  },
+  "no_rev_test": {
+   "trades": 1,
+   "trades_day": 0.1,
+   "mean_trade_%": -1.038,
+   "win_%": 0.0,
+   "avg_abs_move_%": 0.492,
+   "rt_cost_%": 0.72,
+   "total_%": -1.04,
+   "24h_win_windows_%": 0.0,
+   "24h_median_%": 0.0,
+   "24h_mean_%": -0.05,
+   "24h_worst_%": -1.04,
+   "48h_win_windows_%": 0.0,
+   "48h_median_%": 0.0,
+   "48h_mean_%": -0.12,
+   "48h_worst_%": -1.04
+  }
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "XAUTUSDT": {
+  "stats": {
+   "market": "XAUTUSDT",
+   "median_premium_%": -0.082,
+   "dev_std_%": 0.188,
+   "dev_p5_p95_%": [
+    -0.299,
+    0.294
+   ],
+   "|dev|>0.3%_share": 9.72,
+   "autocorr_1/5/15/60m": [
+    0.963,
+    0.846,
+    0.671,
+    0.356
+   ],
+   "half_life_min": 18.3
+  },
+  "params": {
+   "thr": 0.005,
+   "exit": 0.001,
+   "step": 0.25
+  },
+  "train_excess_%": -0.232,
+  "maker_tt0": {
+   "test_excess_%": 0.161,
+   "trades": 18,
+   "trades_day": 0.8,
+   "24h_win_%": 19.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.09
+  },
+  "maker_tt2bp": {
+   "test_excess_%": 0.111,
+   "trades": 12,
+   "trades_day": 0.5,
+   "24h_win_%": 14.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.09
+  },
+  "taker": {
+   "test_excess_%": 1.178,
+   "trades": 62,
+   "trades_day": 2.8,
+   "24h_win_%": 36.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.099
+  }
+ },
+ "PAXGUSDT": {
+  "stats": {
+   "market": "PAXGUSDT",
+   "median_premium_%": -2.687,
+   "dev_std_%": 1.141,
+   "dev_p5_p95_%": [
+    -1.719,
+    2.256
+   ],
+   "|dev|>0.3%_share": 66.48,
+   "autocorr_1/5/15/60m": [
+    0.996,
+    0.984,
+    0.953,
+    0.832
+   ],
+   "half_life_min": 193.8
+  },
+  "params": {
+   "thr": 0.003,
+   "exit": 0.001,
+   "step": 0.5
+  },
+  "train_excess_%": 9.725,
+  "maker_tt0": {
+   "test_excess_%": 2.04,
+   "trades": 49,
+   "trades_day": 2.5,
+   "24h_win_%": 42.0,
+   "24h_median_%": -0.088,
+   "24h_worst_%": -1.145
+  },
+  "maker_tt2bp": {
+   "test_excess_%": -0.416,
+   "trades": 38,
+   "trades_day": 1.9,
+   "24h_win_%": 37.0,
+   "24h_median_%": -0.113,
+   "24h_worst_%": -1.145
+  },
+  "taker": {
+   "test_excess_%": -6.317,
+   "trades": 165,
+   "trades_day": 8.3,
+   "24h_win_%": 34.0,
+   "24h_median_%": -0.443,
+   "24h_worst_%": -2.591
+  }
+ },
+ "BTCUSDT": {
+  "stats": {
+   "market": "BTCUSDT",
+   "median_premium_%": -0.082,
+   "dev_std_%": 0.173,
+   "dev_p5_p95_%": [
+    -0.308,
+    0.247
+   ],
+   "|dev|>0.3%_share": 8.06,
+   "autocorr_1/5/15/60m": [
+    0.907,
+    0.701,
+    0.503,
+    0.302
+   ],
+   "half_life_min": 7.1
+  },
+  "params": {
+   "thr": 0.005,
+   "exit": 0.001,
+   "step": 0.25
+  },
+  "train_excess_%": -1.71,
+  "maker_tt0": {
+   "test_excess_%": -1.069,
+   "trades": 40,
+   "trades_day": 2.0,
+   "24h_win_%": 8.0,
+   "24h_median_%": -0.034,
+   "24h_worst_%": -0.241
+  },
+  "maker_tt2bp": {
+   "test_excess_%": -1.337,
+   "trades": 32,
+   "trades_day": 1.6,
+   "24h_win_%": 8.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.427
+  },
+  "taker": {
+   "test_excess_%": 0.135,
+   "trades": 102,
+   "trades_day": 5.1,
+   "24h_win_%": 39.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.25
+  }
+ },
+ "ETHUSDT": {
+  "stats": {
+   "market": "ETHUSDT",
+   "median_premium_%": -0.051,
+   "dev_std_%": 0.239,
+   "dev_p5_p95_%": [
+    -0.406,
+    0.329
+   ],
+   "|dev|>0.3%_share": 15.37,
+   "autocorr_1/5/15/60m": [
+    0.893,
+    0.67,
+    0.428,
+    0.197
+   ],
+   "half_life_min": 6.1
+  },
+  "params": {
+   "thr": 0.005,
+   "exit": 0.001,
+   "step": 0.25
+  },
+  "train_excess_%": -6.407,
+  "maker_tt0": {
+   "test_excess_%": -1.221,
+   "trades": 58,
+   "trades_day": 2.9,
+   "24h_win_%": 26.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.63
+  },
+  "maker_tt2bp": {
+   "test_excess_%": -1.119,
+   "trades": 46,
+   "trades_day": 2.3,
+   "24h_win_%": 16.0,
+   "24h_median_%": 0.0,
+   "24h_worst_%": -0.505
+  },
+  "taker": {
+   "test_excess_%": 2.765,
+   "trades": 255,
+   "trades_day": 12.8,
+   "24h_win_%": 61.0,
+   "24h_median_%": 0.077,
+   "24h_worst_%": -0.205
+  }
+ }
+}

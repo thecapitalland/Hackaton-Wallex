@@ -1,0 +1,1598 @@
+{
+ "BinHV45|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BinHV45.py",
+  "orig_tf": "1m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 1,
+   "net_tr_%": 0.886,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 0.9,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 0.9
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 1,
+   "net_tr_%": 0.785,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 0.8,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 0.8
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 1,
+   "net_tr_%": 0.685,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 0.7,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 0.7
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "BinHV45|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BinHV45.py",
+  "orig_tf": "1m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 8,
+   "net_tr_%": 0.886,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 7.1,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2022": 4.4,
+    "2023": 0.9,
+    "2024": 0.9,
+    "2026": 0.9
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 8,
+   "net_tr_%": 0.785,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 6.3,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2022": 3.9,
+    "2023": 0.8,
+    "2024": 0.8,
+    "2026": 0.8
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 8,
+   "net_tr_%": 0.685,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 5.5,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2022": 3.4,
+    "2023": 0.7,
+    "2024": 0.7,
+    "2026": 0.7
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "BinHV45|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BinHV45.py",
+  "orig_tf": "1m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 0
+  },
+  "hs10": {
+   "trades": 0
+  },
+  "hs15": {
+   "trades": 0
+  }
+ },
+ "ClucMay72018|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ClucMay72018.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 60,
+   "net_tr_%": -0.327,
+   "win_%": 68.3,
+   "PF": 0.57,
+   "total_%": -19.6,
+   "maxDD_%": 24.0,
+   "trades_per_day": 0.03,
+   "days_with_trade_%": 3.0,
+   "trade_days_pos_%": 66.0,
+   "per_year_%": {
+    "2022": -15.0,
+    "2023": 0.1,
+    "2024": -4.6,
+    "2025": -1.5,
+    "2026": 1.4
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 60,
+   "net_tr_%": -0.426,
+   "win_%": 68.3,
+   "PF": 0.46,
+   "total_%": -25.6,
+   "maxDD_%": 28.9,
+   "trades_per_day": 0.03,
+   "days_with_trade_%": 3.0,
+   "trade_days_pos_%": 66.0,
+   "per_year_%": {
+    "2022": -17.4,
+    "2023": -0.6,
+    "2024": -6.1,
+    "2025": -2.2,
+    "2026": 0.7
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 60,
+   "net_tr_%": -0.526,
+   "win_%": 68.3,
+   "PF": 0.36,
+   "total_%": -31.5,
+   "maxDD_%": 34.1,
+   "trades_per_day": 0.03,
+   "days_with_trade_%": 3.0,
+   "trade_days_pos_%": 64.2,
+   "per_year_%": {
+    "2022": -19.8,
+    "2023": -1.3,
+    "2024": -7.6,
+    "2025": -2.9,
+    "2026": 0.0
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "ClucMay72018|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ClucMay72018.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 153,
+   "net_tr_%": -0.578,
+   "win_%": 67.3,
+   "PF": 0.42,
+   "total_%": -88.4,
+   "maxDD_%": 90.4,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 6.8,
+   "trade_days_pos_%": 61.3,
+   "per_year_%": {
+    "2022": -46.4,
+    "2023": -0.9,
+    "2024": -10.8,
+    "2025": -18.2,
+    "2026": -12.2
+   },
+   "last60d_%": 0.6
+  },
+  "hs10": {
+   "trades": 153,
+   "net_tr_%": -0.677,
+   "win_%": 66.7,
+   "PF": 0.34,
+   "total_%": -103.7,
+   "maxDD_%": 105.2,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 6.8,
+   "trade_days_pos_%": 60.5,
+   "per_year_%": {
+    "2022": -51.5,
+    "2023": -1.9,
+    "2024": -13.8,
+    "2025": -22.5,
+    "2026": -14.0
+   },
+   "last60d_%": 0.4
+  },
+  "hs15": {
+   "trades": 153,
+   "net_tr_%": -0.777,
+   "win_%": 66.0,
+   "PF": 0.27,
+   "total_%": -118.8,
+   "maxDD_%": 120.0,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 6.8,
+   "trade_days_pos_%": 59.7,
+   "per_year_%": {
+    "2022": -56.6,
+    "2023": -2.9,
+    "2024": -16.7,
+    "2025": -26.8,
+    "2026": -15.8
+   },
+   "last60d_%": 0.2
+  }
+ },
+ "ClucMay72018|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ClucMay72018.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 0
+  },
+  "hs10": {
+   "trades": 0
+  },
+  "hs15": {
+   "trades": 0
+  }
+ },
+ "CombinedBinHAndCluc|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CombinedBinHAndCluc.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 87,
+   "net_tr_%": 0.332,
+   "win_%": 59.8,
+   "PF": 1.39,
+   "total_%": 28.9,
+   "maxDD_%": 16.0,
+   "trades_per_day": 0.05,
+   "days_with_trade_%": 4.4,
+   "trade_days_pos_%": 57.7,
+   "per_year_%": {
+    "2022": 15.4,
+    "2023": 3.2,
+    "2024": 14.2,
+    "2025": 2.9,
+    "2026": -6.8
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 87,
+   "net_tr_%": 0.232,
+   "win_%": 56.3,
+   "PF": 1.26,
+   "total_%": 20.1,
+   "maxDD_%": 16.6,
+   "trades_per_day": 0.05,
+   "days_with_trade_%": 4.4,
+   "trade_days_pos_%": 55.1,
+   "per_year_%": {
+    "2022": 11.5,
+    "2023": 2.2,
+    "2024": 12.4,
+    "2025": 1.9,
+    "2026": -7.8
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 87,
+   "net_tr_%": 0.131,
+   "win_%": 54.0,
+   "PF": 1.14,
+   "total_%": 11.4,
+   "maxDD_%": 17.3,
+   "trades_per_day": 0.05,
+   "days_with_trade_%": 4.4,
+   "trade_days_pos_%": 52.6,
+   "per_year_%": {
+    "2022": 7.6,
+    "2023": 1.2,
+    "2024": 10.6,
+    "2025": 0.9,
+    "2026": -8.8
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "CombinedBinHAndCluc|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CombinedBinHAndCluc.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 207,
+   "net_tr_%": -0.234,
+   "win_%": 53.1,
+   "PF": 0.82,
+   "total_%": -48.4,
+   "maxDD_%": 56.7,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 9.5,
+   "trade_days_pos_%": 53.0,
+   "per_year_%": {
+    "2022": -39.4,
+    "2023": 1.8,
+    "2024": 20.9,
+    "2025": -30.7,
+    "2026": -1.0
+   },
+   "last60d_%": 0.5
+  },
+  "hs10": {
+   "trades": 207,
+   "net_tr_%": -0.334,
+   "win_%": 51.7,
+   "PF": 0.76,
+   "total_%": -69.1,
+   "maxDD_%": 75.1,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 9.5,
+   "trade_days_pos_%": 50.0,
+   "per_year_%": {
+    "2022": -47.5,
+    "2023": 0.5,
+    "2024": 17.4,
+    "2025": -35.8,
+    "2026": -3.7
+   },
+   "last60d_%": 0.1
+  },
+  "hs15": {
+   "trades": 207,
+   "net_tr_%": -0.433,
+   "win_%": 50.7,
+   "PF": 0.7,
+   "total_%": -89.7,
+   "maxDD_%": 94.2,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 9.5,
+   "trade_days_pos_%": 48.2,
+   "per_year_%": {
+    "2022": -55.6,
+    "2023": -0.8,
+    "2024": 13.9,
+    "2025": -40.8,
+    "2026": -6.4
+   },
+   "last60d_%": -0.3
+  }
+ },
+ "CombinedBinHAndCluc|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CombinedBinHAndCluc.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 1,
+   "net_tr_%": -0.813,
+   "win_%": 0.0,
+   "PF": 0.0,
+   "total_%": -0.8,
+   "maxDD_%": 0.8,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 0.0,
+   "per_year_%": {
+    "2026": -0.8
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 1,
+   "net_tr_%": -0.912,
+   "win_%": 0.0,
+   "PF": 0.0,
+   "total_%": -0.9,
+   "maxDD_%": 0.9,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 0.0,
+   "per_year_%": {
+    "2026": -0.9
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 1,
+   "net_tr_%": -1.011,
+   "win_%": 0.0,
+   "PF": 0.0,
+   "total_%": -1.0,
+   "maxDD_%": 1.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.5,
+   "trade_days_pos_%": 0.0,
+   "per_year_%": {
+    "2026": -1.0
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "BbandRsi|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BbandRsi.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 160,
+   "net_tr_%": -0.495,
+   "win_%": 60.0,
+   "PF": 0.76,
+   "total_%": -79.3,
+   "maxDD_%": 99.9,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 9.1,
+   "trade_days_pos_%": 60.0,
+   "per_year_%": {
+    "2022": -76.5,
+    "2023": 6.0,
+    "2024": -9.2,
+    "2025": 9.9,
+    "2026": -9.5
+   },
+   "last60d_%": 9.3
+  },
+  "hs10": {
+   "trades": 160,
+   "net_tr_%": -0.595,
+   "win_%": 59.4,
+   "PF": 0.72,
+   "total_%": -95.2,
+   "maxDD_%": 114.2,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 9.1,
+   "trade_days_pos_%": 59.4,
+   "per_year_%": {
+    "2022": -79.5,
+    "2023": 2.7,
+    "2024": -12.5,
+    "2025": 6.5,
+    "2026": -12.4
+   },
+   "last60d_%": 8.6
+  },
+  "hs15": {
+   "trades": 160,
+   "net_tr_%": -0.694,
+   "win_%": 59.4,
+   "PF": 0.68,
+   "total_%": -111.1,
+   "maxDD_%": 128.4,
+   "trades_per_day": 0.09,
+   "days_with_trade_%": 9.1,
+   "trade_days_pos_%": 59.4,
+   "per_year_%": {
+    "2022": -82.5,
+    "2023": -0.6,
+    "2024": -15.8,
+    "2025": 3.1,
+    "2026": -15.3
+   },
+   "last60d_%": 7.9
+  }
+ },
+ "BbandRsi|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BbandRsi.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 190,
+   "net_tr_%": -0.075,
+   "win_%": 66.8,
+   "PF": 0.97,
+   "total_%": -14.2,
+   "maxDD_%": 84.1,
+   "trades_per_day": 0.11,
+   "days_with_trade_%": 10.7,
+   "trade_days_pos_%": 66.5,
+   "per_year_%": {
+    "2022": -39.3,
+    "2023": 55.0,
+    "2024": -10.0,
+    "2025": -26.0,
+    "2026": 6.1
+   },
+   "last60d_%": 17.7
+  },
+  "hs10": {
+   "trades": 190,
+   "net_tr_%": -0.175,
+   "win_%": 66.3,
+   "PF": 0.94,
+   "total_%": -33.2,
+   "maxDD_%": 92.1,
+   "trades_per_day": 0.11,
+   "days_with_trade_%": 10.7,
+   "trade_days_pos_%": 66.0,
+   "per_year_%": {
+    "2022": -43.9,
+    "2023": 50.9,
+    "2024": -13.1,
+    "2025": -29.8,
+    "2026": 2.7
+   },
+   "last60d_%": 16.8
+  },
+  "hs15": {
+   "trades": 190,
+   "net_tr_%": -0.274,
+   "win_%": 65.8,
+   "PF": 0.9,
+   "total_%": -52.1,
+   "maxDD_%": 100.1,
+   "trades_per_day": 0.11,
+   "days_with_trade_%": 10.7,
+   "trade_days_pos_%": 65.4,
+   "per_year_%": {
+    "2022": -48.6,
+    "2023": 46.7,
+    "2024": -16.1,
+    "2025": -33.6,
+    "2026": -0.6
+   },
+   "last60d_%": 16.0
+  }
+ },
+ "BbandRsi|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BbandRsi.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 22,
+   "net_tr_%": -0.079,
+   "win_%": 59.1,
+   "PF": 0.93,
+   "total_%": -1.7,
+   "maxDD_%": 14.9,
+   "trades_per_day": 0.1,
+   "days_with_trade_%": 10.5,
+   "trade_days_pos_%": 59.1,
+   "per_year_%": {
+    "2026": -1.7
+   },
+   "last60d_%": -5.4
+  },
+  "hs10": {
+   "trades": 22,
+   "net_tr_%": -0.179,
+   "win_%": 59.1,
+   "PF": 0.84,
+   "total_%": -3.9,
+   "maxDD_%": 16.6,
+   "trades_per_day": 0.1,
+   "days_with_trade_%": 10.5,
+   "trade_days_pos_%": 59.1,
+   "per_year_%": {
+    "2026": -3.9
+   },
+   "last60d_%": -5.8
+  },
+  "hs15": {
+   "trades": 22,
+   "net_tr_%": -0.279,
+   "win_%": 59.1,
+   "PF": 0.77,
+   "total_%": -6.1,
+   "maxDD_%": 18.2,
+   "trades_per_day": 0.1,
+   "days_with_trade_%": 10.5,
+   "trade_days_pos_%": 59.1,
+   "per_year_%": {
+    "2026": -6.1
+   },
+   "last60d_%": -6.2
+  }
+ },
+ "AdxSmas|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AdxSmas.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 548,
+   "net_tr_%": -0.448,
+   "win_%": 34.1,
+   "PF": 0.64,
+   "total_%": -245.7,
+   "maxDD_%": 252.6,
+   "trades_per_day": 0.31,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 34.6,
+   "per_year_%": {
+    "2022": -121.2,
+    "2023": -3.5,
+    "2024": -11.2,
+    "2025": -65.9,
+    "2026": -44.0
+   },
+   "last60d_%": -14.3
+  },
+  "hs10": {
+   "trades": 548,
+   "net_tr_%": -0.548,
+   "win_%": 31.8,
+   "PF": 0.59,
+   "total_%": -300.3,
+   "maxDD_%": 302.5,
+   "trades_per_day": 0.31,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 32.2,
+   "per_year_%": {
+    "2022": -132.7,
+    "2023": -14.7,
+    "2024": -22.4,
+    "2025": -76.8,
+    "2026": -53.6
+   },
+   "last60d_%": -16.2
+  },
+  "hs15": {
+   "trades": 548,
+   "net_tr_%": -0.647,
+   "win_%": 29.2,
+   "PF": 0.53,
+   "total_%": -354.7,
+   "maxDD_%": 355.1,
+   "trades_per_day": 0.31,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 29.6,
+   "per_year_%": {
+    "2022": -144.3,
+    "2023": -26.0,
+    "2024": -33.5,
+    "2025": -87.7,
+    "2026": -63.1
+   },
+   "last60d_%": -18.1
+  }
+ },
+ "AdxSmas|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AdxSmas.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 555,
+   "net_tr_%": -0.248,
+   "win_%": 44.0,
+   "PF": 0.84,
+   "total_%": -137.8,
+   "maxDD_%": 168.5,
+   "trades_per_day": 0.32,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 44.0,
+   "per_year_%": {
+    "2022": -77.4,
+    "2023": 12.1,
+    "2024": -5.0,
+    "2025": -32.5,
+    "2026": -35.1
+   },
+   "last60d_%": 5.9
+  },
+  "hs10": {
+   "trades": 555,
+   "net_tr_%": -0.348,
+   "win_%": 42.0,
+   "PF": 0.78,
+   "total_%": -193.2,
+   "maxDD_%": 217.6,
+   "trades_per_day": 0.32,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 42.1,
+   "per_year_%": {
+    "2022": -89.1,
+    "2023": 1.0,
+    "2024": -16.2,
+    "2025": -45.0,
+    "2026": -43.9
+   },
+   "last60d_%": 4.0
+  },
+  "hs15": {
+   "trades": 555,
+   "net_tr_%": -0.448,
+   "win_%": 39.5,
+   "PF": 0.72,
+   "total_%": -248.5,
+   "maxDD_%": 267.0,
+   "trades_per_day": 0.32,
+   "days_with_trade_%": 30.8,
+   "trade_days_pos_%": 39.6,
+   "per_year_%": {
+    "2022": -100.8,
+    "2023": -10.1,
+    "2024": -27.4,
+    "2025": -57.6,
+    "2026": -52.6
+   },
+   "last60d_%": 2.1
+  }
+ },
+ "AdxSmas|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AdxSmas.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 57,
+   "net_tr_%": -0.095,
+   "win_%": 28.1,
+   "PF": 0.81,
+   "total_%": -5.4,
+   "maxDD_%": 13.9,
+   "trades_per_day": 0.27,
+   "days_with_trade_%": 26.7,
+   "trade_days_pos_%": 28.6,
+   "per_year_%": {
+    "2026": -5.4
+   },
+   "last60d_%": -4.4
+  },
+  "hs10": {
+   "trades": 57,
+   "net_tr_%": -0.195,
+   "win_%": 22.8,
+   "PF": 0.66,
+   "total_%": -11.1,
+   "maxDD_%": 17.6,
+   "trades_per_day": 0.27,
+   "days_with_trade_%": 26.7,
+   "trade_days_pos_%": 23.2,
+   "per_year_%": {
+    "2026": -11.1
+   },
+   "last60d_%": -5.8
+  },
+  "hs15": {
+   "trades": 57,
+   "net_tr_%": -0.294,
+   "win_%": 21.1,
+   "PF": 0.55,
+   "total_%": -16.8,
+   "maxDD_%": 21.3,
+   "trades_per_day": 0.27,
+   "days_with_trade_%": 26.7,
+   "trade_days_pos_%": 21.4,
+   "per_year_%": {
+    "2026": -16.8
+   },
+   "last60d_%": -7.2
+  }
+ },
+ "Strategy001|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy001.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 512,
+   "net_tr_%": -0.489,
+   "win_%": 88.3,
+   "PF": 0.56,
+   "total_%": -250.6,
+   "maxDD_%": 262.9,
+   "trades_per_day": 0.29,
+   "days_with_trade_%": 27.3,
+   "trade_days_pos_%": 87.5,
+   "per_year_%": {
+    "2022": -153.8,
+    "2023": 7.5,
+    "2024": -25.9,
+    "2025": -33.2,
+    "2026": -45.2
+   },
+   "last60d_%": 7.0
+  },
+  "hs10": {
+   "trades": 512,
+   "net_tr_%": -0.589,
+   "win_%": 88.3,
+   "PF": 0.47,
+   "total_%": -301.5,
+   "maxDD_%": 311.3,
+   "trades_per_day": 0.29,
+   "days_with_trade_%": 27.3,
+   "trade_days_pos_%": 87.5,
+   "per_year_%": {
+    "2022": -166.3,
+    "2023": -2.1,
+    "2024": -37.0,
+    "2025": -43.6,
+    "2026": -52.4
+   },
+   "last60d_%": 5.2
+  },
+  "hs15": {
+   "trades": 512,
+   "net_tr_%": -0.688,
+   "win_%": 88.3,
+   "PF": 0.39,
+   "total_%": -352.4,
+   "maxDD_%": 359.5,
+   "trades_per_day": 0.29,
+   "days_with_trade_%": 27.3,
+   "trade_days_pos_%": 87.5,
+   "per_year_%": {
+    "2022": -178.9,
+    "2023": -11.7,
+    "2024": -48.2,
+    "2025": -54.1,
+    "2026": -59.5
+   },
+   "last60d_%": 3.4
+  }
+ },
+ "Strategy001|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy001.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 699,
+   "net_tr_%": -0.271,
+   "win_%": 90.1,
+   "PF": 0.7,
+   "total_%": -189.2,
+   "maxDD_%": 204.9,
+   "trades_per_day": 0.4,
+   "days_with_trade_%": 36.6,
+   "trade_days_pos_%": 89.3,
+   "per_year_%": {
+    "2022": -97.3,
+    "2023": 13.3,
+    "2024": -50.0,
+    "2025": -28.7,
+    "2026": -26.6
+   },
+   "last60d_%": 4.4
+  },
+  "hs10": {
+   "trades": 699,
+   "net_tr_%": -0.37,
+   "win_%": 90.1,
+   "PF": 0.59,
+   "total_%": -258.9,
+   "maxDD_%": 269.9,
+   "trades_per_day": 0.4,
+   "days_with_trade_%": 36.6,
+   "trade_days_pos_%": 89.3,
+   "per_year_%": {
+    "2022": -115.0,
+    "2023": 1.5,
+    "2024": -63.8,
+    "2025": -44.5,
+    "2026": -37.1
+   },
+   "last60d_%": 2.0
+  },
+  "hs15": {
+   "trades": 699,
+   "net_tr_%": -0.47,
+   "win_%": 90.1,
+   "PF": 0.48,
+   "total_%": -328.5,
+   "maxDD_%": 334.9,
+   "trades_per_day": 0.4,
+   "days_with_trade_%": 36.6,
+   "trade_days_pos_%": 89.3,
+   "per_year_%": {
+    "2022": -132.6,
+    "2023": -10.3,
+    "2024": -77.7,
+    "2025": -60.2,
+    "2026": -47.7
+   },
+   "last60d_%": -0.4
+  }
+ },
+ "Strategy001|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy001.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 26,
+   "net_tr_%": -0.206,
+   "win_%": 92.3,
+   "PF": 0.74,
+   "total_%": -5.4,
+   "maxDD_%": 11.1,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 11.9,
+   "trade_days_pos_%": 92.0,
+   "per_year_%": {
+    "2026": -5.4
+   },
+   "last60d_%": -7.8
+  },
+  "hs10": {
+   "trades": 26,
+   "net_tr_%": -0.306,
+   "win_%": 92.3,
+   "PF": 0.62,
+   "total_%": -8.0,
+   "maxDD_%": 12.8,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 11.9,
+   "trade_days_pos_%": 92.0,
+   "per_year_%": {
+    "2026": -8.0
+   },
+   "last60d_%": -8.3
+  },
+  "hs15": {
+   "trades": 26,
+   "net_tr_%": -0.405,
+   "win_%": 92.3,
+   "PF": 0.5,
+   "total_%": -10.5,
+   "maxDD_%": 14.5,
+   "trades_per_day": 0.12,
+   "days_with_trade_%": 11.9,
+   "trade_days_pos_%": 92.0,
+   "per_year_%": {
+    "2026": -10.5
+   },
+   "last60d_%": -8.8
+  }
+ },
+ "MACDStrategy(CCI)|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MACDStrategy.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 771,
+   "net_tr_%": -0.32,
+   "win_%": 73.4,
+   "PF": 0.59,
+   "total_%": -246.8,
+   "maxDD_%": 250.2,
+   "trades_per_day": 0.44,
+   "days_with_trade_%": 40.8,
+   "trade_days_pos_%": 71.6,
+   "per_year_%": {
+    "2022": -108.6,
+    "2023": -35.0,
+    "2024": -25.3,
+    "2025": -35.1,
+    "2026": -42.7
+   },
+   "last60d_%": -0.5
+  },
+  "hs10": {
+   "trades": 771,
+   "net_tr_%": -0.42,
+   "win_%": 72.0,
+   "PF": 0.48,
+   "total_%": -323.6,
+   "maxDD_%": 325.8,
+   "trades_per_day": 0.44,
+   "days_with_trade_%": 40.8,
+   "trade_days_pos_%": 70.3,
+   "per_year_%": {
+    "2022": -125.3,
+    "2023": -50.5,
+    "2024": -42.7,
+    "2025": -50.2,
+    "2026": -55.0
+   },
+   "last60d_%": -2.8
+  },
+  "hs15": {
+   "trades": 771,
+   "net_tr_%": -0.519,
+   "win_%": 70.7,
+   "PF": 0.38,
+   "total_%": -400.3,
+   "maxDD_%": 402.1,
+   "trades_per_day": 0.44,
+   "days_with_trade_%": 40.8,
+   "trade_days_pos_%": 69.1,
+   "per_year_%": {
+    "2022": -142.0,
+    "2023": -65.9,
+    "2024": -60.0,
+    "2025": -65.2,
+    "2026": -67.2
+   },
+   "last60d_%": -5.1
+  }
+ },
+ "MACDStrategy(CCI)|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MACDStrategy.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 894,
+   "net_tr_%": -0.467,
+   "win_%": 77.7,
+   "PF": 0.53,
+   "total_%": -417.9,
+   "maxDD_%": 422.0,
+   "trades_per_day": 0.51,
+   "days_with_trade_%": 44.3,
+   "trade_days_pos_%": 75.2,
+   "per_year_%": {
+    "2022": -149.9,
+    "2023": -42.9,
+    "2024": -67.9,
+    "2025": -80.6,
+    "2026": -76.6
+   },
+   "last60d_%": -2.2
+  },
+  "hs10": {
+   "trades": 894,
+   "net_tr_%": -0.567,
+   "win_%": 77.3,
+   "PF": 0.44,
+   "total_%": -506.8,
+   "maxDD_%": 510.3,
+   "trades_per_day": 0.51,
+   "days_with_trade_%": 44.3,
+   "trade_days_pos_%": 74.7,
+   "per_year_%": {
+    "2022": -169.8,
+    "2023": -58.7,
+    "2024": -86.3,
+    "2025": -101.7,
+    "2026": -90.2
+   },
+   "last60d_%": -4.8
+  },
+  "hs15": {
+   "trades": 894,
+   "net_tr_%": -0.666,
+   "win_%": 76.5,
+   "PF": 0.35,
+   "total_%": -595.7,
+   "maxDD_%": 598.4,
+   "trades_per_day": 0.51,
+   "days_with_trade_%": 44.3,
+   "trade_days_pos_%": 73.7,
+   "per_year_%": {
+    "2022": -189.8,
+    "2023": -74.5,
+    "2024": -104.7,
+    "2025": -122.8,
+    "2026": -103.8
+   },
+   "last60d_%": -7.4
+  }
+ },
+ "MACDStrategy(CCI)|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MACDStrategy.py",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 82,
+   "net_tr_%": -0.257,
+   "win_%": 45.1,
+   "PF": 0.46,
+   "total_%": -21.1,
+   "maxDD_%": 24.7,
+   "trades_per_day": 0.39,
+   "days_with_trade_%": 37.6,
+   "trade_days_pos_%": 45.6,
+   "per_year_%": {
+    "2026": -21.1
+   },
+   "last60d_%": -7.7
+  },
+  "hs10": {
+   "trades": 82,
+   "net_tr_%": -0.357,
+   "win_%": 39.0,
+   "PF": 0.33,
+   "total_%": -29.2,
+   "maxDD_%": 31.6,
+   "trades_per_day": 0.39,
+   "days_with_trade_%": 37.6,
+   "trade_days_pos_%": 39.2,
+   "per_year_%": {
+    "2026": -29.2
+   },
+   "last60d_%": -10.0
+  },
+  "hs15": {
+   "trades": 82,
+   "net_tr_%": -0.456,
+   "win_%": 36.6,
+   "PF": 0.24,
+   "total_%": -37.4,
+   "maxDD_%": 38.7,
+   "trades_per_day": 0.39,
+   "days_with_trade_%": 37.6,
+   "trade_days_pos_%": 35.4,
+   "per_year_%": {
+    "2026": -37.4
+   },
+   "last60d_%": -12.3
+  }
+ },
+ "Supertrend|BTCUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Supertrend.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 751,
+   "net_tr_%": -0.372,
+   "win_%": 40.3,
+   "PF": 0.71,
+   "total_%": -279.7,
+   "maxDD_%": 280.3,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.2,
+   "trade_days_pos_%": 38.1,
+   "per_year_%": {
+    "2022": -89.1,
+    "2023": -38.5,
+    "2024": -32.4,
+    "2025": -85.5,
+    "2026": -34.2
+   },
+   "last60d_%": -17.4
+  },
+  "hs10": {
+   "trades": 751,
+   "net_tr_%": -0.472,
+   "win_%": 39.1,
+   "PF": 0.64,
+   "total_%": -354.5,
+   "maxDD_%": 355.0,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.2,
+   "trade_days_pos_%": 36.4,
+   "per_year_%": {
+    "2022": -104.1,
+    "2023": -53.6,
+    "2024": -50.0,
+    "2025": -100.5,
+    "2026": -46.3
+   },
+   "last60d_%": -20.0
+  },
+  "hs15": {
+   "trades": 751,
+   "net_tr_%": -0.572,
+   "win_%": 37.8,
+   "PF": 0.59,
+   "total_%": -429.2,
+   "maxDD_%": 429.6,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.2,
+   "trade_days_pos_%": 35.2,
+   "per_year_%": {
+    "2022": -119.1,
+    "2023": -68.8,
+    "2024": -67.5,
+    "2025": -115.5,
+    "2026": -58.3
+   },
+   "last60d_%": -22.5
+  }
+ },
+ "Supertrend|ETHUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Supertrend.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 762,
+   "net_tr_%": -0.337,
+   "win_%": 44.1,
+   "PF": 0.78,
+   "total_%": -256.8,
+   "maxDD_%": 258.5,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.5,
+   "trade_days_pos_%": 41.5,
+   "per_year_%": {
+    "2022": -93.6,
+    "2023": -33.1,
+    "2024": -26.9,
+    "2025": -60.4,
+    "2026": -42.8
+   },
+   "last60d_%": -21.0
+  },
+  "hs10": {
+   "trades": 762,
+   "net_tr_%": -0.437,
+   "win_%": 43.0,
+   "PF": 0.73,
+   "total_%": -332.7,
+   "maxDD_%": 334.0,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.5,
+   "trade_days_pos_%": 40.7,
+   "per_year_%": {
+    "2022": -110.3,
+    "2023": -48.6,
+    "2024": -43.3,
+    "2025": -75.8,
+    "2026": -54.8
+   },
+   "last60d_%": -23.7
+  },
+  "hs15": {
+   "trades": 762,
+   "net_tr_%": -0.536,
+   "win_%": 42.4,
+   "PF": 0.68,
+   "total_%": -408.5,
+   "maxDD_%": 409.4,
+   "trades_per_day": 0.43,
+   "days_with_trade_%": 38.5,
+   "trade_days_pos_%": 40.1,
+   "per_year_%": {
+    "2022": -127.0,
+    "2023": -64.0,
+    "2024": -59.6,
+    "2025": -91.2,
+    "2026": -66.7
+   },
+   "last60d_%": -26.3
+  }
+ },
+ "Supertrend|XAUTUSDT": {
+  "url": "https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Supertrend.py",
+  "orig_tf": "1h",
+  "tf": "1h",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 87,
+   "net_tr_%": -0.435,
+   "win_%": 25.3,
+   "PF": 0.4,
+   "total_%": -37.9,
+   "maxDD_%": 38.7,
+   "trades_per_day": 0.41,
+   "days_with_trade_%": 39.5,
+   "trade_days_pos_%": 24.1,
+   "per_year_%": {
+    "2026": -37.9
+   },
+   "last60d_%": -19.7
+  },
+  "hs10": {
+   "trades": 87,
+   "net_tr_%": -0.535,
+   "win_%": 24.1,
+   "PF": 0.33,
+   "total_%": -46.5,
+   "maxDD_%": 47.0,
+   "trades_per_day": 0.41,
+   "days_with_trade_%": 39.5,
+   "trade_days_pos_%": 22.9,
+   "per_year_%": {
+    "2026": -46.5
+   },
+   "last60d_%": -22.0
+  },
+  "hs15": {
+   "trades": 87,
+   "net_tr_%": -0.634,
+   "win_%": 21.8,
+   "PF": 0.28,
+   "total_%": -55.2,
+   "maxDD_%": 55.2,
+   "trades_per_day": 0.41,
+   "days_with_trade_%": 39.5,
+   "trade_days_pos_%": 20.5,
+   "per_year_%": {
+    "2026": -55.2
+   },
+   "last60d_%": -24.3
+  }
+ },
+ "SMAOffset|BTCUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/SMAOffset",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 43,
+   "net_tr_%": -0.644,
+   "win_%": 60.5,
+   "PF": 0.74,
+   "total_%": -27.7,
+   "maxDD_%": 55.3,
+   "trades_per_day": 0.02,
+   "days_with_trade_%": 2.4,
+   "trade_days_pos_%": 59.5,
+   "per_year_%": {
+    "2022": -47.9,
+    "2023": 7.3,
+    "2024": 23.4,
+    "2025": -0.9,
+    "2026": -9.6
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 43,
+   "net_tr_%": -0.743,
+   "win_%": 60.5,
+   "PF": 0.7,
+   "total_%": -32.0,
+   "maxDD_%": 57.1,
+   "trades_per_day": 0.02,
+   "days_with_trade_%": 2.4,
+   "trade_days_pos_%": 59.5,
+   "per_year_%": {
+    "2022": -49.6,
+    "2023": 6.6,
+    "2024": 22.3,
+    "2025": -1.4,
+    "2026": -9.9
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 43,
+   "net_tr_%": -0.843,
+   "win_%": 60.5,
+   "PF": 0.67,
+   "total_%": -36.2,
+   "maxDD_%": 58.9,
+   "trades_per_day": 0.02,
+   "days_with_trade_%": 2.4,
+   "trade_days_pos_%": 59.5,
+   "per_year_%": {
+    "2022": -51.2,
+    "2023": 5.9,
+    "2024": 21.2,
+    "2025": -1.9,
+    "2026": -10.2
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "SMAOffset|ETHUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/SMAOffset",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 106,
+   "net_tr_%": -0.921,
+   "win_%": 54.7,
+   "PF": 0.63,
+   "total_%": -97.6,
+   "maxDD_%": 103.8,
+   "trades_per_day": 0.06,
+   "days_with_trade_%": 5.9,
+   "trade_days_pos_%": 54.8,
+   "per_year_%": {
+    "2022": -59.5,
+    "2023": 2.4,
+    "2024": -4.0,
+    "2025": -26.3,
+    "2026": -10.2
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 106,
+   "net_tr_%": -1.02,
+   "win_%": 53.8,
+   "PF": 0.6,
+   "total_%": -108.1,
+   "maxDD_%": 114.1,
+   "trades_per_day": 0.06,
+   "days_with_trade_%": 5.9,
+   "trade_days_pos_%": 53.8,
+   "per_year_%": {
+    "2022": -63.9,
+    "2023": 1.6,
+    "2024": -5.7,
+    "2025": -29.2,
+    "2026": -10.9
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 106,
+   "net_tr_%": -1.119,
+   "win_%": 52.8,
+   "PF": 0.57,
+   "total_%": -118.6,
+   "maxDD_%": 124.4,
+   "trades_per_day": 0.06,
+   "days_with_trade_%": 5.9,
+   "trade_days_pos_%": 52.9,
+   "per_year_%": {
+    "2022": -68.2,
+    "2023": 0.8,
+    "2024": -7.4,
+    "2025": -32.2,
+    "2026": -11.6
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "SMAOffset|XAUTUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/SMAOffset",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 0
+  },
+  "hs10": {
+   "trades": 0
+  },
+  "hs15": {
+   "trades": 0
+  }
+ },
+ "ElliotV5HOMod2|BTCUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/ElliotV5HOMod2",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 1,
+   "net_tr_%": 1.324,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 1.3,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 1.3
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 1,
+   "net_tr_%": 1.223,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 1.2,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 1.2
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 1,
+   "net_tr_%": 1.122,
+   "win_%": 100.0,
+   "PF": null,
+   "total_%": 1.1,
+   "maxDD_%": 0.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.1,
+   "trade_days_pos_%": 100.0,
+   "per_year_%": {
+    "2023": 1.1
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "ElliotV5HOMod2|ETHUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/ElliotV5HOMod2",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2022-01-01",
+  "hs5": {
+   "trades": 8,
+   "net_tr_%": 0.111,
+   "win_%": 75.0,
+   "PF": 1.07,
+   "total_%": 0.9,
+   "maxDD_%": 10.9,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.4,
+   "trade_days_pos_%": 71.4,
+   "per_year_%": {
+    "2022": 7.9,
+    "2023": 1.0,
+    "2025": -8.0,
+    "2026": 0.0
+   },
+   "last60d_%": 0.0
+  },
+  "hs10": {
+   "trades": 8,
+   "net_tr_%": 0.011,
+   "win_%": 62.5,
+   "PF": 1.01,
+   "total_%": 0.1,
+   "maxDD_%": 11.0,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.4,
+   "trade_days_pos_%": 57.1,
+   "per_year_%": {
+    "2022": 7.6,
+    "2023": 0.8,
+    "2025": -8.2,
+    "2026": -0.1
+   },
+   "last60d_%": 0.0
+  },
+  "hs15": {
+   "trades": 8,
+   "net_tr_%": -0.089,
+   "win_%": 62.5,
+   "PF": 0.94,
+   "total_%": -0.7,
+   "maxDD_%": 11.1,
+   "trades_per_day": 0.0,
+   "days_with_trade_%": 0.4,
+   "trade_days_pos_%": 57.1,
+   "per_year_%": {
+    "2022": 7.3,
+    "2023": 0.6,
+    "2025": -8.4,
+    "2026": -0.2
+   },
+   "last60d_%": 0.0
+  }
+ },
+ "ElliotV5HOMod2|XAUTUSDT": {
+  "url": "https://github.com/davidzr/freqtrade-strategies/tree/main/strategies/ElliotV5HOMod2",
+  "orig_tf": "5m",
+  "tf": "15m",
+  "since": "2026-03-26",
+  "hs5": {
+   "trades": 0
+  },
+  "hs10": {
+   "trades": 0
+  },
+  "hs15": {
+   "trades": 0
+  }
+ }
+}
